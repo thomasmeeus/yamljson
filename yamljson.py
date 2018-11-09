@@ -3,7 +3,7 @@ import sublime_plugin
 import json
 
 try:
-    from . import yaml
+    from .yaml import *
 except (ImportError, ValueError):
     import yaml
 
