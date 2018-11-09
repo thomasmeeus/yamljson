@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "Convert YAML to JSON",
+    "command": "convert_yaml_to_json"
+  },
+  {
+    "caption": "Convert JSON to YAML",
+    "command": "convert_json_to_yaml"
+  }
+]
