@@ -21,4 +21,4 @@ class ConvertJsonToYaml(sublime_plugin.TextCommand):
         for region in sel_view:
             if not region.empty():
                 input = yaml.load(self.view.substr(region))
-                self.view.replace(edit, region, yaml.dump(input, allow_unicode=True,default_flow_style=False))x
+                self.view.replace(edit, region, yaml.dump(input, allow_unicode=True,default_flow_style=False))
